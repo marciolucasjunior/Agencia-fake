@@ -18,6 +18,7 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
+    background: white;
 }
 
 .logo {
@@ -78,7 +79,7 @@ body {
 .headline {
     margin-left: 10%;
     flex: 40%;
-    border: 1px solid black;
+
 }
 
 .headline h2 {
@@ -112,13 +113,11 @@ body {
     margin-right: 10%;
     text-align: center;
     flex: 40%;
-    border: 1px solid black;
 }
 
 section {
     display: inline-block;
     margin-top: 80px;
-    border: 1px solid black;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -144,8 +143,8 @@ section h2 {
     width: 30%;
     padding: 20px;
     margin: 1%;
-    border: 1px solid black;
     border-radius: 5px;
+    border: 1px solid #180F4A;
     cursor: pointer;
 }
 
