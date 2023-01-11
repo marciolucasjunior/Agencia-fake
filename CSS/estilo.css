@@ -43,6 +43,18 @@ body {
     
 }
 
+
+#menucelular {
+    display: none;
+}
+
+
+
+.menuzinho {
+    width: 50px;
+    display: none;
+}
+
 .menu a {
     color: #180F4A;
     text-decoration: none;

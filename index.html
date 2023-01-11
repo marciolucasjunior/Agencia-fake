@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="CSS/responsivo.css">
     <title>Agência Fake</title>
 </head>
-<body>
+<body onresize="Mudoutamanho()">
     <nav class="navbar">
       <div class="logo">    
        <h1>Agência Fake</h1>
+       <div onclick="menu()"><img class="menuzinho" src="img/menuzinho.png" alt=""></div>
+
+       <div id="menucelular">
+        <a href="#">Home</a>
+          <a href="#">Sobre Nós</a>
+          <a href="#">Serviços</a>
+          <a id="botao" href="#">Fale Conosco</a>
+       </div>
+
       </div>
       <div class="menu">
           <a href="#">Home</a>
@@ -67,5 +76,24 @@
         <b style="color: white;">©Todos os direitos reservados.</b>
     </footer>
     <a href="#"><img class="whats" src="img/whats.png" alt=""></a>
+
+    <script>
+         function Mudoutamanho(){
+            if (window.innerWidth >= 1005) {
+                menucelular.style.display = 'none'
+            }
+         }   
+
+        function menu(){
+       
+         if (menucelular.style.display !='block'){
+            menucelular.style.display = 'block'
+         } else {
+            menucelular.style.display = 'none'
+         }    
+        
+        }
+           
+    </script>
 </body>
 </html>
