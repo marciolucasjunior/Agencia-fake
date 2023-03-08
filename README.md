@@ -9,7 +9,7 @@
 <p> Agência fake é um site construido com a finalidade de exercitar as habilidades principalmente com HTML e CSS FLEX BOX </p>
 <p>Site criado com fontes pesonalizadas e cores </p>
 
-<h2>Layout do projeto </h2>
+
 
 
 <h1>Tecnologias utilizadas </h1>
