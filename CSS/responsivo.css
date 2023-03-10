@@ -9,6 +9,7 @@
     #menucelular {
         display: none;
         background: white;
+        border-bottom: 2px solid #180F4A;
        
     }
 
@@ -23,6 +24,12 @@
         display: block;
         padding: 10px;
         text-decoration: none;
+    }
+
+    #menucelular a:hover {
+        background-color:  #180F4A;
+        color: white;
+        transition-duration: .3s;
     }
 
     .menuzinho {
